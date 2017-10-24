@@ -1,0 +1,325 @@
+/*主体内容样式*/
+
+
+
+
+
+.pro_detail {
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+/*左列*/
+
+.pro_detail_left {
+	width: 500px;
+	float: left;
+	overflow: hidden; margin-right: 60px;
+}
+
+.pro_detail_left .jqzoom {
+	
+	float: left;
+	position: relative;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.pro_detail_left .fs {
+	width: 500px;
+	height: 500px;
+}
+
+.pro_detail_left span {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 310px;
+	clear: both;
+}
+.pro_detail_left span .look{
+	margin-left: 200px;
+}
+.pro_detail_left span a:hover {
+	text-decoration: none;
+}
+
+.pro_detail_left ul.imgList {
+	height: 129px; margin-left: 30px;
+}
+
+.pro_detail_left ul.imgList li {
+	float: left;
+	margin-right: 10px;
+}
+
+.pro_detail_left ul.imgList li img {
+	width: 130px;
+	height: 129px;
+	padding: 1px;
+	background: #EEE;
+	cursor: pointer;
+}
+
+.pro_detail_left ul.imgList li img:hover {
+	padding: 1px;
+	background: #999;
+}
+
+.pro_detail_left .tab {
+	width: 100%;
+}
+
+.pro_detail_left .tab_menu {
+	clear: both;
+}
+
+.pro_detail_left .tab_menu li {
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	list-style: none;
+	padding: 1px 6px;
+	margin-right: 4px;
+	background: #F1F1F1;
+	border: 1px solid #898989;
+	border-bottom: none;
+}
+
+.pro_detail_left .tab_menu li.hover {
+	background: #DFDFDF;
+}
+
+.pro_detail_left .tab_menu li.selected {
+	color: #FFF;
+	background: #6D84B4;
+}
+
+.pro_detail_left .tab_box {
+	clear: both;
+	border: 1px solid #898989;
+}
+
+.pro_detail_left .hide {
+	display: none
+}
+
+
+/*右列*/
+
+.pro_detail_right {
+	width: 569px;
+	float: left;
+	margin: 10px;
+}
+.pro_detail_right>p{
+	margin-bottom: 10px; color: #404040; font-size: 22px; font-family: "PingFang" ;
+}
+.pro_detail_right .color_change {
+	width: 569px;
+	color: #404040; font-size: 22px; font-family: "PingFang" ;
+	float: left;
+	display: inline;
+	margin-bottom: 9px;
+}
+
+.pro_detail_right .color_change ul li {
+	float: left;
+	margin-right: 17px;  margin-top: 14px;
+}
+
+.pro_detail_right .color_change img {
+	width: 68px;
+	height: 68px;
+	padding: 1px;
+	background: #EEE;
+	border: 1px solid #BBB;
+	cursor: pointer;
+}
+
+.pro_detail_right .color_change img:hover {
+	padding: 1px;
+	background: #999;
+}
+
+.pro_detail_right .pro_size {
+	width: 569px;
+	color: #404040; font-size: 20px; font-family: "PingFang" ;
+	float: left;
+	display: inline;
+	margin-bottom: 10px;
+}
+
+.pro_detail_right .pro_size ul li {
+	float: left;
+	margin-right: 5px; margin-top: 17px;
+}
+
+.pro_detail_right .pro_size ul li span {
+	display: block; width: 60px; line-height: 32px;
+	margin-right: 6px; text-align: center;
+	border: 1px solid #51494d; font-size: 17px; font-family: "PingFang" ;
+	cursor: pointer;
+}
+
+.pro_detail_right .pro_num {
+	width: 569px;
+	float: left;
+	display: inline;
+	margin-bottom: 10px; margin-top: 9px;
+}
+.pro_detail_right .pro_price {
+	width: 569px;
+	float: left;
+	display: inline;
+	padding-bottom: 20px; border-bottom: 1px solid #4c4449;
+}
+
+.pro_detail_right .pro_rating {
+	width: 569px;
+	font-weight: bold;
+	float: left;
+	display: inline;
+	margin-top: 17px;
+}
+
+
+/* 评分css */
+
+.rating {
+	width: 80px;
+	height: 16px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+	clear: both;
+	position: relative;
+	background: url(../img/star-matrix.gif) no-repeat 0 0; margin-top: 5px;
+}
+
+.nostar {
+	background-position: 0 0
+}
+
+.onestar {
+	background-position: 0 -16px
+}
+
+.twostar {
+	background-position: 0 -32px
+}
+
+.threestar {
+	background-position: 0 -48px
+}
+
+.fourstar {
+	background-position: 0 -64px
+}
+
+.fivestar {
+	background-position: 0 -80px
+}
+
+ul.rating li {
+	cursor: pointer;
+	float: left;
+	text-indent: -999em;
+}
+
+ul.rating li a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 16px;
+	height: 16px;
+	text-decoration: none;
+	z-index: 200;
+}
+
+ul.rating li.one a {
+	left: 0
+}
+
+ul.rating li.two a {
+	left: 16px;
+}
+
+ul.rating li.three a {
+	left: 32px;
+}
+
+ul.rating li.four a {
+	left: 48px;
+}
+
+ul.rating li.five a {
+	left: 64px;
+}
+
+ul.rating li a:hover {
+	z-index: 2;
+	width: 80px;
+	height: 16px;
+	overflow: hidden;
+	left: 0;
+	background: url(../img/star-matrix.gif) no-repeat 0 0
+}
+
+ul.rating li.one a:hover {
+	background-position: 0 -96px;
+}
+
+ul.rating li.two a:hover {
+	background-position: 0 -112px;
+}
+
+ul.rating li.three a:hover {
+	background-position: 0 -128px
+}
+
+ul.rating li.four a:hover {
+	background-position: 0 -144px
+}
+
+ul.rating li.five a:hover {
+	background-position: 0 -160px
+}
+
+
+/*jQzoom*/
+
+div.zoomdiv {
+	z-index: 999;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	background: #ffffff;
+	border: 1px solid #CCCCCC;
+	display: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+div.jqZoomPup {
+	z-index: 999;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #aaa;
+	background: #ffffff url(../img/zoomlens.gif) 50% top no-repeat;
+	;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}

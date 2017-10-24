@@ -1,0 +1,66 @@
+.banner{
+	margin-bottom: 58px;
+}
+nav{
+	width: 100%; margin-bottom: 18px; border-bottom: 1px solid #999999;
+}
+nav>ul{
+	width: 1200px; margin: 0 auto; line-height: 34px;
+}
+nav>ul>li{
+	float: left; width: 72px; margin-right: 12px; text-align: center; position: relative;
+}
+nav>ul>li>a{
+	font-size: 17px; color:#404040 ; font-family: "PingFang" ; display: block;
+}
+nav>ul>li:hover>a{
+	background: #1e191f; color: white;
+}
+nav>ul>li:nth-of-type(1)>a{
+	background: #1e191f; color: white;
+}
+nav>ul>li.ui-meun ul{
+	display: none;
+}
+nav>ul>li.ui-meun ul{
+    position: absolute; top: 35px; left: 0;	 width: 72px; text-align: center; z-index: 2;
+}
+nav>ul>li.ui-meun ul>li{
+	background: white; 
+}
+.pin{
+	width: 100%;
+}
+.pin .pins{
+	width: 1200px; margin: 0 auto; margin-bottom: 12px; margin-top: 31px;
+}
+.pins>h4{
+	color:#1e191f ; font-size: 22px; font-family: "PingFang" ;
+}
+.content{
+	width: 100%; background: url(../img/xiang_10.jpg) no-repeat 0px 58px,url(../img/xiang_10.jpg) no-repeat right 58px;
+}
+.content .content-3{
+	width: 1200px; margin: 0 auto; background: url(../img/xiang12_03.jpg) no-repeat 475px 42px,url(../img/xiang12_05.jpg) no-repeat 573px 42px,url(../img/xiang12_07.jpg) no-repeat 680px 42px;
+}
+.content-3>h4{
+	text-align: center; color:#101010 ; font-family:"PingFang" ; font-size: 26px; margin-bottom: 98px;
+}
+.content-3>h5{
+	text-align: center;  color: #251b21;font-family:"PingFang" ; font-size: 19px;
+}
+.tab{
+	width: 1200px; height: 308px; margin: 0 auto; background: url(../img/zimu_08.jpg) no-repeat 0px 202px;
+} 
+.tab>ul{
+	border: 1px solid #5f5f5f; border-bottom:none ;
+}
+.tab>ul>li{width: 129px; height: 52px; line-height: 52px; text-align: center; float: left; cursor: pointer; margin-right: 16px; color:#808080 ; font-size:20px ; font-family: "PingFang" ;}
+.tab>.conten{
+	border: 1px solid #9c9c9c; height: 152px;  
+}
+.conten>div{
+	 margin-top: 19px; margin-left: 19px;
+}
+.on{ color: red;}
+.show{ font-size: 17px; color: #808080;}
